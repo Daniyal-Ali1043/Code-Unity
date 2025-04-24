@@ -1,0 +1,14 @@
+.scrollbar::-webkit-scrollbar{
+    width: 10px;
+  }
+  .scrollbar::-webkit-scrollbar-track{
+    @apply bg-slate-100 
+  }
+  .scrollbar::-webkit-scrollbar-thumb{
+    @apply bg-slate-200 rounded-full
+  }
+
+  .hover-dark:hover {
+    background-color: rgba(255, 255, 255, 0.1) !important; /* Subtle white background on hover */
+    color: black !important; /* Change text color to black on hover */
+  }

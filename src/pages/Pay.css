@@ -1,0 +1,59 @@
+.pay-button {
+    background: #6772e5;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.3s ease;
+  }
+  
+  .pay-button:disabled {
+    background: #a5a5a5;
+    cursor: not-allowed;
+  }
+  
+  .pay-button:hover:not(:disabled) {
+    background: #5469d4;
+  }
+  
+  .grey-circle,
+  .purple-circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .grey-circle {
+    background: #e5e5e5;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    margin-right: 12px;
+  }
+  
+  .purple-circle {
+    background: #6772e5;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .icon {
+    width: 16px;
+    height: 16px;
+  }
+  
+  .text-container {
+    margin-left: 12px;
+  }
+  
+  .error {
+    color: red;
+    font-size: 14px;
+    margin-top: 8px;
+  }
